@@ -1,7 +1,7 @@
 
 # matter-react
 
-[Matter](https://stevenmiller888/matter) components rebuilt in React.
+[Matter](https://github.com/stevenmiller888/matter) components rebuilt in React.
 
 ![](https://cldup.com/xTRE1NuYTv.png)
 
