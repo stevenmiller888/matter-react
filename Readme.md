@@ -21,7 +21,7 @@ Or you can download the [files](https://github.com/stevenmiller888/matter-react/
 import { Button } from 'stevenmiller888/matter-react';
 import React from 'facebook/react';
 
-React.render(<Button/>);
+React.render(<Button/>, document.body);
 ```
 
 ## Components
