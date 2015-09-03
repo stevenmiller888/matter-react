@@ -438,19 +438,19 @@
  * Sizes
  */
 
-.matter-Button[size="small"] {
+.matter-Button.small {
   font-size: 11px;
   font-weight: 300;
   padding: 7px 13px;
 }
 
-.matter-Button[size="medium"] {
+.matter-Button.medium {
   font-size: 13px;
   font-weight: 300;
   padding: 9px 17px;
 }
 
-.matter-Button[size="large"] {
+.matter-Button.large {
   font-size: 15px;
   font-weight: 300;
   padding: 13px 33px;
@@ -460,257 +460,37 @@
  * Types.
  */
 
-.matter-Button[type="primary"] {
+.matter-Button.primary {
   background: white;
   color: black;
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
-.matter-Button[type="primary"]:hover,
-.matter-Button[type="primary"]:focus,
-.matter-Button[type="primary"]:active {
+.matter-Button.primary:hover,
+.matter-Button.primary:focus,
+.matter-Button.primary:active {
   background-color: rgb(242, 242, 242);
 }
 
-.matter-Button[type="primary"]:focus,
-.matter-Button[type="primary"]:active {
+.matter-Button.primary:focus,
+.matter-Button.primary:active {
   box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.5);
   outline: none;
 }
 
-.matter-Button[type="warning"] {
+.matter-Button.warning {
   background: #ff5b3f;
 }
 
-.matter-Button[type="warning"]:hover,
-.matter-Button[type="warning"]:focus,
-.matter-Button[type="warning"]:active {
+.matter-Button.warning:hover,
+.matter-Button.warning:focus,
+.matter-Button.warning:active {
   background-color: rgb(255, 124, 101);
 }
 
-.matter-Button[type="warning"]:focus,
-.matter-Button[type="warning"]:active {
+.matter-Button.warning:focus,
+.matter-Button.warning:active {
   box-shadow: 0px 0px 3px 1px rgba(255, 91, 63, 0.5);
-}
-
-/**
- * Shape.
- */
-
-.matter-Shape {
-  box-sizing: border-box;
-}
-
-/**
- * Space.
- */
-
-.matter-Shape[space="small"] {
-  margin: 13px;
-}
-
-.matter-Shape[space="medium"] {
-  margin: 23px;
-}
-
-.matter-Shape[space="large"] {
-  margin: 33px;
-}
-
-/**
- * Kinds/sizes.
- */
-
-.matter-Shape[kind="square"][color="earth"] {
-  background-color: #5bdb7b;
-}
-
-.matter-Shape[kind="square"][color="water"] {
-  background-color: #47b2fa;
-}
-
-.matter-Shape[kind="square"][color="wind"] {
-  background-color: #2ec2e6;
-}
-
-.matter-Shape[kind="square"][color="fire"] {
-  background-color: #ff5b3f;
-}
-
-.matter-Shape[kind="square"][size="small"] {
-  height: 6.25vw;
-  width: 6.25vw;
-}
-
-.matter-Shape[kind="square"][size="medium"] {
-  height: 12.5vw;
-  width: 12.5vw;
-}
-
-.matter-Shape[kind="square"][size="large"] {
-  height: 25vw;
-  width: 25vw;
-}
-
-.matter-Shape[kind="rectangle"][color="earth"] {
-  background-color: #5bdb7b;
-}
-
-.matter-Shape[kind="rectangle"][color="water"] {
-  background-color: #47b2fa;
-}
-
-.matter-Shape[kind="rectangle"][color="wind"] {
-  background-color: #2ec2e6;
-}
-
-.matter-Shape[kind="rectangle"][color="fire"] {
-  background-color: #ff5b3f;
-}
-
-.matter-Shape[kind="rectangle"][size="small"] {
-  height: 6.25vw;
-  width: 10.5vw;
-}
-
-.matter-Shape[kind="rectangle"][size="medium"] {
-  height: 12.5vw;
-  width: 25vw;
-}
-
-.matter-Shape[kind="rectangle"][size="large"] {
-  height: 25vw;
-  width: 50vw;
-}
-
-.matter-Shape[kind="circle"][color="earth"] {
-  background-color: #5bdb7b;
-}
-
-.matter-Shape[kind="circle"][color="water"] {
-  background-color: #47b2fa;
-}
-
-.matter-Shape[kind="circle"][color="wind"] {
-  background-color: #2ec2e6;
-}
-
-.matter-Shape[kind="circle"][color="fire"] {
-  background-color: #ff5b3f;
-}
-
-.matter-Shape[kind="circle"][size="small"] {
-  height: 6.25vw;
-  width: 6.25vw;
-  border-radius: 3.125vw;
-}
-
-.matter-Shape[kind="circle"][size="medium"] {
-  height: 12.5vw;
-  width: 12.5vw;
-  border-radius: 25vw;
-}
-
-.matter-Shape[kind="circle"][size="large"] {
-  height: 25vw;
-  width: 25vw;
-  border-radius: 50vw;
-}
-
-.matter-Shape[kind="triangle"][size="small"][color="earth"] {
-  width: 0;
-  height: 0;
-  border-left: 4.25vw solid transparent;
-  border-right: 4.25vw solid transparent;
-  border-bottom: 6.25vw solid #5bdb7b;
-}
-
-.matter-Shape[kind="triangle"][size="medium"][color="earth"] {
-  width: 0;
-  height: 0;
-  border-left: 8.5vw solid transparent;
-  border-right: 8.5vw solid transparent;
-  border-bottom: 12.495vw solid #5bdb7b;
-}
-
-.matter-Shape[kind="triangle"][size="large"][color="earth"] {
-  width: 0;
-  height: 0;
-  border-left: 17vw solid transparent;
-  border-right: 17vw solid transparent;
-  border-bottom: 24.99vw solid #5bdb7b;
-}
-
-.matter-Shape[kind="triangle"][size="small"][color="water"] {
-  width: 0;
-  height: 0;
-  border-left: 4.25vw solid transparent;
-  border-right: 4.25vw solid transparent;
-  border-bottom: 6.25vw solid #47b2fa;
-}
-
-.matter-Shape[kind="triangle"][size="medium"][color="water"] {
-  width: 0;
-  height: 0;
-  border-left: 8.5vw solid transparent;
-  border-right: 8.5vw solid transparent;
-  border-bottom: 12.495vw solid #47b2fa;
-}
-
-.matter-Shape[kind="triangle"][size="large"][color="water"] {
-  width: 0;
-  height: 0;
-  border-left: 17vw solid transparent;
-  border-right: 17vw solid transparent;
-  border-bottom: 24.99vw solid #47b2fa;
-}
-
-.matter-Shape[kind="triangle"][size="small"][color="fire"] {
-  width: 0;
-  height: 0;
-  border-left: 4.25vw solid transparent;
-  border-right: 4.25vw solid transparent;
-  border-bottom: 6.25vw solid #ff5b3f;
-}
-
-.matter-Shape[kind="triangle"][size="medium"][color="fire"] {
-  width: 0;
-  height: 0;
-  border-left: 8.5vw solid transparent;
-  border-right: 8.5vw solid transparent;
-  border-bottom: 12.495vw solid #ff5b3f;
-}
-
-.matter-Shape[kind="triangle"][size="large"][color="fire"] {
-  width: 0;
-  height: 0;
-  border-left: 17vw solid transparent;
-  border-right: 17vw solid transparent;
-  border-bottom: 24.99vw solid #ff5b3f;
-}
-
-.matter-Shape[kind="triangle"][size="small"][color="wind"] {
-  width: 0;
-  height: 0;
-  border-left: 4.25vw solid transparent;
-  border-right: 4.25vw solid transparent;
-  border-bottom: 6.25vw solid #2ec2e6;
-}
-
-.matter-Shape[kind="triangle"][size="medium"][color="wind"] {
-  width: 0;
-  height: 0;
-  border-left: 8.5vw solid transparent;
-  border-right: 8.5vw solid transparent;
-  border-bottom: 12.495vw solid #2ec2e6;
-}
-
-.matter-Shape[kind="triangle"][size="large"][color="wind"] {
-  width: 0;
-  height: 0;
-  border-left: 17vw solid transparent;
-  border-right: 17vw solid transparent;
-  border-bottom: 24.99vw solid #2ec2e6;
 }
 
 /**
@@ -799,7 +579,7 @@
   cursor: pointer;
 }
 
-.matter-Menu-item[active] {
+.matter-Menu-item.active {
   background: rgba(0, 0, 0, 0.0313726);
 }
 
